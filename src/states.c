@@ -94,7 +94,7 @@ static PyObject* addState(PyObject* self, PyObject* args) {
 	}
 	Py_INCREF(cb);
 
-	callbacks = realloc(callbacks, ncallbacks+1);
+	callbacks = realloc(callbacks, (ncallbacks+1) * sizeof(PyObject*));
 	callbacks[ncallbacks] = cb;
 
 	SSockets_addState(stateWrapper);
