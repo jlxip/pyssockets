@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import pyssockets
-import socket
 
 def init(ctx):
 	ctx.data = bytes()

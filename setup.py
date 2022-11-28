@@ -13,7 +13,7 @@ pyssockets = Extension(
 
 setup(
 	name = 'pyssockets',
-	version = '0.1.0',
+	version = '0.1.1',
 	description = 'SSockets wrapper for python',
 	author = 'jlxip',
 	url = 'https://github.com/jlxip/pyssockets',
