@@ -1,6 +1,8 @@
 # pyssockets
 This is a Python wrapper for [SSockets](https://github.com/jlxip/ssockets).
 
+There is a [Docker image](https://hub.docker.com/r/jlxip/pyssockets) that bundles Alpine Linux with Python, pip, and pyssockets.
+
 ## Introduction
 Hope you're familiar with SSockets already. If not, [go have a look](https://github.com/jlxip/ssockets).
 
@@ -10,9 +12,9 @@ This module is exclusively distributed as sources, so SSockets is expected to be
 
 ```
 pip install pyssockets
-```.
+```
 
-For this very reason, pyssockets versions are not correlated to SSockets versions.
+For this very reason, pyssockets versions are not correlated to SSockets versions. You should consider the Docker image for ease of deployment.
 
 ## How to use
 You might want to [see an example](https://github.com/jlxip/pyssockets/tree/master/echo/echo.py).
