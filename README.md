@@ -1,5 +1,5 @@
 # pyssockets
-This is a Python wrapper for [SSockets](https://github.com/jlxip/ssockets).
+These are Python bindings for [SSockets](https://github.com/jlxip/ssockets).
 
 There is a [Docker image](https://hub.docker.com/r/jlxip/pyssockets) that bundles Alpine Linux with Python, pip, and pyssockets.
 
